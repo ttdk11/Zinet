@@ -1,0 +1,12 @@
+{
+  "name": "Zinet Dekorasyon",
+  "short_name": "Zinet",
+  "description": "İstanbul’da renovasyon, dekorasyon ve anahtar teslim uygulama.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f3ed",
+  "theme_color": "#071c44",
+  "icons": [
+    {"src":"/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ]
+}
