@@ -32,6 +32,21 @@ a,button,input,select,textarea{transition:border-color .22s ease,background-colo
 .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
 .reveal.is-visible{opacity:1;transform:none}
 @keyframes waIn{from{opacity:0;transform:translateY(10px) scale(.92)}to{opacity:1;transform:none}}
+
+/* Reliable local media fallback: no third-party hotlink dependency. */
+.hero{padding-top:5vw;padding-bottom:5vw;min-height:calc(100vh - 82px)}
+.architecture-card{background:#e9e2d8 url('/assets/hero.svg') center/cover no-repeat}
+.architecture-card>img{opacity:0!important}
+.project-half.before{background:#d7d0c7 url('/assets/before.svg') center/cover no-repeat}
+.project-half.after{background:#eee8df url('/assets/after.svg') center/cover no-repeat}
+.project-half>img{opacity:0!important}
+.gallery-grid figure:nth-child(1){background:#ece5dc url('/assets/gallery-1.svg') center/cover no-repeat}
+.gallery-grid figure:nth-child(2){background:#ded8cf url('/assets/gallery-2.svg') center/cover no-repeat}
+.gallery-grid figure:nth-child(3){background:#e8e1d7 url('/assets/gallery-3.svg') center/cover no-repeat}
+.gallery-grid figure>img{opacity:0!important}
+.photo-overlay{background:linear-gradient(180deg,rgba(7,28,68,0) 45%,rgba(7,28,68,.22))}
+.arch-label{text-shadow:0 1px 12px rgba(0,0,0,.18)}
+
 @media(max-width:900px){
   .hero{gap:36px;padding-top:64px}
   .hero-text{font-size:17px}
